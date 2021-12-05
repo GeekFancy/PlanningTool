@@ -1,0 +1,7 @@
+---
+applications:
+- name: SAPINTERNALJIRATOOLUI
+  path: .
+  buildpack: nodejs_buildpack
+  memory: 2048M
+  timeout: 120

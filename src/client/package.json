@@ -1,0 +1,38 @@
+{
+    "name": "jira",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "start": "npm run serve"
+    },
+    "engines": {
+        "node": "14.18.0",
+        "npm": "8.1.4"
+      },
+    "dependencies": {
+        "@ant-design/icons-vue": "^6.0.1",
+        "ant-design-vue": "^2.2.6",
+        "axios": "^0.21.3",
+        "less-loader": "^6.0.0",
+        "moment": "^2.29.1",
+        "vue": "^3.0.0",
+        "vue-axios": "^3.2.5",
+        "vue-router": "^4.0.0-0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "xlsx": "^0.17.2"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
